@@ -282,7 +282,7 @@
                 li.prepend($(this.options.expandBtnHTML));
                 li.prepend($(this.options.collapseBtnHTML));
             }
-            if( (' ' + li[0].className + ' ').indexOf(' ' + defaults.collapsedClass + ' ') > -1 )
+            if( (' ' + li[0].className + ' ').indexOf(' ' + this.options.collapsedClass + ' ') > -1 )
             {
                 li.children('[data-action="collapse"]').hide();
             } else {
